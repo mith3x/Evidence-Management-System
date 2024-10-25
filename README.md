@@ -13,6 +13,9 @@ This project provides a command-line interface for managing a database of catego
 - **CLion IDE**: Recommended for compilation and debugging.
 - **GCC Compiler**: Ensure GCC is installed, or configure CLion to use a suitable C compiler.
 
+## Executable file (A3.exe)
+The operating system will load and run the application. 
+
 ## Compilation
 To compile the project manually using GCC, run the following command:
   gcc main.c init.c evidence.c -o A3.out
@@ -22,7 +25,6 @@ In CLion, simply load the project and run the build configuration.
 ## Launching the Program
 After compilation, execute the following command in the terminal:
   ./A3.out
-
 
 ## Usage Instructions
 Upon launching, the program will prompt the user with the following options:
